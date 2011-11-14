@@ -325,7 +325,6 @@
 		57D7EA2913D98672000E4E63 /* UIExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D7EA2413D98672000E4E63 /* UIExpectation.m */; };
 		57D7EA2A13D98672000E4E63 /* UIMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D7EA2513D98672000E4E63 /* UIMatcher.m */; };
 		57D7EA2B13D98672000E4E63 /* UISpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D7EA2613D98672000E4E63 /* UISpec.m */; };
-		73057FD61331AD5E001908EE /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 73057FC71331AA3D001908EE /* JSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73057FD91331AD99001908EE /* RKJSONParserJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 73057FC41331A8F6001908EE /* RKJSONParserJSONKit.m */; };
 		7377FBE21268E96300868752 /* RKManagedObjectCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7377FBE11268E96300868752 /* RKManagedObjectCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73C89EF212A5BB9A000FE600 /* RKReachabilityObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C89EEF12A5BB9A000FE600 /* RKReachabilityObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1857,7 +1856,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73057FD61331AD5E001908EE /* JSONKit.h in Headers */,
 				25A1CB3A137F5C8C00A7D5C9 /* RKJSONParserJSONKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3804,6 +3802,7 @@
 				EF8BA09B147168CE005227E9 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
